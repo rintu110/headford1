@@ -24,6 +24,13 @@ import { SocialLoginModule, SocialAuthServiceConfig, GoogleLoginProvider } from 
 import { LoginComponent } from './page/login/login.component';
 import { environment } from 'src/environments/environment';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DigitalAgencyComponent } from './page/digital-agency/digital-agency.component';
+import { ResultsComponent } from './page/results/results.component';
+import { WebDesignForGrowthComponent } from './page/web-design-for-growth/web-design-for-growth.component';
+import { B2bMarketingComponent } from './page/b2b-marketing/b2b-marketing.component';
+import { LeadGenerationComponent } from './page/lead-generation/lead-generation.component';
+import { ContentMarketingComponent } from './page/content-marketing/content-marketing.component';
+import { MarketingComponent } from './page/marketing/marketing.component';
 
 
 
@@ -45,7 +52,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     QuoteComponent,
     ContactComponent,
     VendorComponent,
-    LoginComponent
+    LoginComponent,
+    DigitalAgencyComponent,
+    ResultsComponent,
+    WebDesignForGrowthComponent,
+    B2bMarketingComponent,
+    LeadGenerationComponent,
+    ContentMarketingComponent,
+    MarketingComponent
   ],
   imports: [
     BrowserModule,
