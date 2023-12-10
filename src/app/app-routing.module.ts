@@ -11,6 +11,13 @@ import { QuoteComponent } from './page/quote/quote.component';
 import { ServiceComponent } from './page/service/service.component';
 import { TeamComponent } from './page/team/team.component';
 import { TestimonialComponent } from './page/testimonial/testimonial.component';
+import { DigitalAgencyComponent } from './page/digital-agency/digital-agency.component';
+import { ResultsComponent } from './page/results/results.component';
+import { ContentMarketingComponent } from './page/content-marketing/content-marketing.component';
+import { LeadGenerationComponent } from './page/lead-generation/lead-generation.component';
+import { B2bMarketingComponent } from './page/b2b-marketing/b2b-marketing.component';
+import { WebDesignForGrowthComponent } from './page/web-design-for-growth/web-design-for-growth.component';
+import { MarketingComponent } from './page/marketing/marketing.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -25,6 +32,13 @@ const routes: Routes = [
   { path: 'quote', component: QuoteComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'login', component: LoginComponent },
+  {path:'digital-agency', component:DigitalAgencyComponent  },
+  {path:'result', component:ResultsComponent  },
+  {path:'content-marketing', component:ContentMarketingComponent  },
+  {path:'lead-generation', component:LeadGenerationComponent  },
+  {path:'b2b-marketing', component:B2bMarketingComponent  },
+  {path:'web-design-for-growth', component:WebDesignForGrowthComponent  },
+  {path:'marketing', component:MarketingComponent  },
 ];
 
 @NgModule({

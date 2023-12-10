@@ -15165,3 +15165,14 @@ Sidebar
      font-size:18px;
 }
 
+.page-title:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #131313;
+    opacity: 0;
+    content: "";
+}
+
