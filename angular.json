@@ -30,7 +30,7 @@
               "src/assets"
             ],
             "styles": [
-                "src/assets/css/bootstrap.min.css",
+                "node_modules/bootstrap/dist/css/bootstrap.min.css",
                 "src/assets/plugins/revolution/css/settings.css",
                 "src/assets/plugins/revolution/css/layers.css",
                 "src/assets/plugins/revolution/css/navigation.css",
@@ -38,7 +38,7 @@
                 "src/assets/css/responsive.css"
             ],
             "scripts": [
-                "src/assets/js/jquery.js",
+                "node_modules/jquery/dist/jquery.min.js",
                 "src/assets/js/popper.min.js",
                 "src/assets/plugins/revolution/js/jquery.themepunch.revolution.min.js",
                 "src/assets/plugins/revolution/js/jquery.themepunch.tools.min.js",
@@ -53,7 +53,7 @@
                 "src/assets/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js",
                 "src/assets/plugins/revolution/js/extensions/revolution.extension.video.min.js",
                 "src/assets/js/main-slider-script.js",
-                "src/assets/js/bootstrap.min.js",
+                "node_modules/bootstrap/dist/js/bootstrap.min.js",
                 "src/assets/js/jquery.fancybox.js",
                 "src/assets/js/jquery-ui.js",
                 "src/assets/js/wow.js",

@@ -40,7 +40,6 @@ import { MarketingComponent } from './page/marketing/marketing.component';
     HeaderComponent,
     TopmenuComponent,
     FooterComponent,
-    HomeComponent,
     AboutComponent,
     ServiceComponent,
     BlogComponent,
