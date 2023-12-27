@@ -1,0 +1,89 @@
+section{
+    overflow: hidden !important;
+   }
+
+.faqs-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.accordion-header {
+    position: relative;
+    font-size: 18px !important;
+    line-height: 25px;
+    color: #323232;
+    font-weight: 700;
+    cursor: pointer;
+    padding:0px !important;
+    transition: all 500ms ease;
+    border-bottom: 1px solid var(--border-theme-color3);
+}
+
+.accordion-box .block .acc-btn.active {
+    color: #fff;
+    background-color: #f9672a;
+}
+.accordion-box .block{
+box-shadow: 0 5px 40px rgba(0, 0, 0, 0.05);
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #f9672a;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 20px !important;
+    text-align: left;
+    color: #323232;
+    background-color: #fff;
+    border: 0;
+    font-weight: 600;
+    border-radius: 0;
+    overflow-anchor: none;
+}
+
+.tabs-box .nav {
+    
+    display: flex !important;
+    flex-wrap:  unset !important; 
+   
+}
+
+.work-tabs .tab-buttons .tab-btn .nav-link.active {
+    
+    color:#fff;
+    text-align: center;
+    background-color: #f9672a;
+    cursor: pointer;
+}
+
+.work-tabs .tab-buttons .tab-btn {
+    width: 100%;
+    font-size: 26px;
+    font-weight:600;
+    line-height: 50px;
+    color: var(--theme-color1);
+    text-align: center;
+    padding:0px  !important;
+    background-color: #f4f5f8;
+    cursor: pointer;
+  }
+
+ 
+  .work-tabs .tab-buttons .tab-btn .nav-link{
+    width: 100%;
+    font-size: 26px;
+    font-weight:600;
+    line-height: 50px;
+    color: var(--theme-color1);
+    text-align: center;
+    padding: 30px 30px;
+    background-color: #f4f5f8;
+    cursor: pointer;
+  }
